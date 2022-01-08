@@ -1,0 +1,654 @@
+[19:25:20] [main/INFO]: ModLauncher running: args [--username, Datsaltysnek, --version, 1.16.5, --gameDir, E:\.mineyourmind\instances\oceanblock\minecraft, --assetsDir, C:\Users\hunte\AppData\Roaming\.mineyourmind\assets, --assetIndex, 1.16, --uuid, 736a7cac090f43e2aab13083ac90111a, --accessToken, ????????, --userType, microsoft, --versionType, SKCLauncher, --width, 854, --height, 480, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.22, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[19:25:20] [main/INFO]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_311 by Oracle Corporation
+[19:25:20] [main/INFO]: Added Lets Encrypt root certificates as additional trust
+[19:25:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/E:/.mineyourmind/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[19:25:24] [main/INFO]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 13:0 token recognition error at: '`'
+[19:25:24] [main/ERROR]: Mixin config minetogether.mixins.json does not specify "minVersion" property
+[19:25:24] [main/INFO]: Successfully loaded Mixin Connector [vazkii.botania.common.MixinConnector]
+[19:25:24] [main/INFO]: Successfully loaded Mixin Connector [com.leobeliik.extremesoundmuffler.MixinConnector]
+[19:25:24] [main/INFO]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[19:25:24] [main/INFO]: Launching target 'fmlclient' with arguments [--version, 1.16.5, --gameDir, E:\.mineyourmind\instances\oceanblock\minecraft, --assetsDir, C:\Users\hunte\AppData\Roaming\.mineyourmind\assets, --uuid, 736a7cac090f43e2aab13083ac90111a, --username, Datsaltysnek, --assetIndex, 1.16, --accessToken, ????????, --userType, microsoft, --versionType, SKCLauncher, --width, 854, --height, 480]
+[19:25:25] [main/WARN]: Reference map 'lemonlib.refmap.json' for lemonlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:25:25] [main/WARN]: Reference map 'rhino-forge-refmap.json' for rhino.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:25:25] [main/INFO]: Loaded rule configuration file for RoadRunner: 81 options available, 2 override(s) found
+[19:25:25] [main/INFO]: Transforming method: updateFluidOnEyes net.minecraft.entity.Entity
+[19:25:25] [main/INFO]: Transforming method: getMaxAirSupply net.minecraft.entity.Entity
+[19:25:25] [main/INFO]: Transforming method: updateFluidHeightAndDoFluidPushing net.minecraft.entity.Entity
+[19:25:25] [main/INFO]: Transforming method: canBreatheUnderwater net.minecraft.entity.LivingEntity
+[19:25:25] [main/INFO]: Transforming method: decreaseAirSupply net.minecraft.entity.LivingEntity
+[19:25:25] [main/INFO]: Transforming method: increaseAirSupply net.minecraft.entity.LivingEntity
+[19:25:25] [main/INFO]: Patching LivingEntity#attackEntityFrom
+[19:25:25] [main/INFO]: Transforming method: travel net.minecraft.entity.LivingEntity
+[19:25:25] [main/INFO]: Transforming method: renderSky net.minecraft.client.renderer.WorldRenderer
+[19:25:25] [main/INFO]: Transforming method: updateFogColor net.minecraft.client.renderer.FogRenderer
+[19:25:25] [main/INFO]: Transforming method: getWaterBrightness net.minecraft.client.entity.player.ClientPlayerEntity
+[19:25:25] [main/INFO]: Patching ModelBakery#<init>
+[19:25:26] [main/INFO]: Patching ItemStack#onItemUse
+[19:25:26] [main/WARN]: Force-disabling mixin 'ai.nearby_entity_tracking.LivingEntityMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[19:25:26] [main/WARN]: Force-disabling mixin 'ai.nearby_entity_tracking.ServerWorldMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[19:25:26] [main/WARN]: Force-disabling mixin 'ai.nearby_entity_tracking.WorldChunkMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[19:25:26] [main/WARN]: Force-disabling mixin 'ai.nearby_entity_tracking.WorldMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[19:25:26] [main/WARN]: Force-disabling mixin 'ai.nearby_entity_tracking.goals.FleeEntityGoalMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[19:25:26] [main/WARN]: Force-disabling mixin 'ai.nearby_entity_tracking.goals.LookAtGoalMixin' as rule 'mixin.ai.nearby_entity_tracking' (added by user configuration) disables it and children
+[19:25:26] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ChunkTicketManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by user configuration) disables it and children
+[19:25:26] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by user configuration) disables it and children
+[19:25:26] [main/INFO]: Transforming method: turnPlayer net.minecraft.client.MouseHelper
+[19:25:26] [main/INFO]: Patching DataPackRegistries#<init>
+[19:25:26] [main/INFO]: Patching LootTableManager#apply
+[19:25:27] [main/INFO]: !!! SOME LOGGERS HAVE MOVED TO THE DEBUG FILE (Please Include them in your bug reports) !!!
+[19:25:28] [pool-5-thread-1/INFO]: Transforming method: updateFluidOnEyes net.minecraft.entity.Entity
+[19:25:28] [pool-5-thread-1/INFO]: Transforming method: getMaxAirSupply net.minecraft.entity.Entity
+[19:25:28] [pool-5-thread-1/INFO]: Transforming method: updateFluidHeightAndDoFluidPushing net.minecraft.entity.Entity
+[19:25:28] [pool-5-thread-1/INFO]: Transforming method: canBreatheUnderwater net.minecraft.entity.LivingEntity
+[19:25:28] [pool-5-thread-1/INFO]: Transforming method: decreaseAirSupply net.minecraft.entity.LivingEntity
+[19:25:28] [pool-5-thread-1/INFO]: Transforming method: increaseAirSupply net.minecraft.entity.LivingEntity
+[19:25:28] [pool-5-thread-1/INFO]: Patching LivingEntity#attackEntityFrom
+[19:25:28] [pool-5-thread-1/INFO]: Transforming method: travel net.minecraft.entity.LivingEntity
+[19:25:28] [pool-5-thread-1/INFO]: Using Java 8 class definer
+[19:25:28] [pool-5-thread-1/INFO]: Patching ItemStack#onItemUse
+[19:25:30] [pool-5-thread-1/INFO]: Lazy DFU Loaded
+[19:25:32] [Render thread/INFO]: Transforming method: getWaterBrightness net.minecraft.client.entity.player.ClientPlayerEntity
+[19:25:32] [Render thread/INFO]: Transforming method: getWaterBrightness net.minecraft.client.entity.player.ClientPlayerEntity
+[19:25:33] [Render thread/INFO]: Setting user: Datsaltysnek
+[19:25:33] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[19:25:33] [Render thread/INFO]: Loaded client.properties
+[19:25:33] [Render thread/INFO]: Transforming method: turnPlayer net.minecraft.client.MouseHelper
+[19:25:34] [Render thread/INFO]: Transforming method: renderSky net.minecraft.client.renderer.WorldRenderer
+[19:25:34] [Render thread/INFO]: Transforming method: renderLevel net.minecraft.client.renderer.GameRenderer
+[19:25:34] [Render thread/INFO]: Transforming method: updateLightmap net.minecraft.client.renderer.LightTexture
+[19:25:34] [Render thread/INFO]: Transforming method: renderLevel net.minecraft.client.renderer.GameRenderer
+[19:25:34] [Render thread/INFO]: Environment: PROD
+[19:25:34] [Render thread/INFO]: Environment: PROD
+[19:25:34] [pool-4-thread-1/INFO]: Config at E:\.mineyourmind\instances\oceanblock\minecraft\config\wyml.json has changed, reloaded!
+[19:25:35] [Render thread/INFO]: Scanning classes for titanium
+[19:25:35] [Render thread/INFO]: Found FeaturePluginInstance for class IndustrialForegoingResourcePlugin for plugin resources
+[19:25:35] [Render thread/INFO]: Found FeaturePluginInstance for class DefaultResourceRegistryPlugin for plugin resources
+[19:25:35] [modloading-worker-7/INFO]: Loading mod
+[19:25:35] [modloading-worker-1/INFO]: Patching ModelBakery#<init>
+[19:25:35] [modloading-worker-2/INFO]: Scanning classes for industrialforegoing
+[19:25:35] [modloading-worker-2/INFO]: Found FeaturePluginInstance for class FarmersDelightPlugin for plugin farmersdelight
+[19:25:35] [modloading-worker-2/INFO]: Found FeaturePluginInstance for class ImmersiveEngineeringPlugin for plugin immersiveengineering
+[19:25:35] [modloading-worker-2/INFO]: Found FeaturePluginInstance for class FTBChunksPlugin for plugin ftbchunks
+[19:25:35] [modloading-worker-2/INFO]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
+[19:25:35] [modloading-worker-2/INFO]: Constructed class FarmersDelightPlugin for plugin farmersdelight for mod industrialforegoing
+[19:25:35] [modloading-worker-2/INFO]: Constructed class ImmersiveEngineeringPlugin for plugin immersiveengineering for mod industrialforegoing
+[19:25:35] [modloading-worker-2/INFO]: Constructed class FTBChunksPlugin for plugin ftbchunks for mod industrialforegoing
+[19:25:35] [modloading-worker-2/INFO]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
+[19:25:35] [modloading-worker-2/INFO]: Executing phase CONSTRUCTION for plugin class FarmersDelightPlugin
+[19:25:35] [modloading-worker-15/INFO]: Patching DataPackRegistries#<init>
+[19:25:35] [modloading-worker-2/INFO]: Executing phase CONSTRUCTION for plugin class ImmersiveEngineeringPlugin
+[19:25:35] [modloading-worker-2/INFO]: Executing phase CONSTRUCTION for plugin class FTBChunksPlugin
+[19:25:35] [modloading-worker-2/INFO]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
+[19:25:35] [modloading-worker-2/INFO]: Executing phase PRE_INIT for plugin class FarmersDelightPlugin
+[19:25:35] [modloading-worker-2/INFO]: Executing phase PRE_INIT for plugin class ImmersiveEngineeringPlugin
+[19:25:35] [modloading-worker-2/INFO]: Executing phase PRE_INIT for plugin class FTBChunksPlugin
+[19:25:35] [modloading-worker-2/INFO]: Executing phase PRE_INIT for plugin class CuriosPlugin
+[19:25:36] [modloading-worker-3/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Main.initialize()
+[19:25:36] [modloading-worker-3/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Reflecting GuiContainer...
+[19:25:36] [modloading-worker-3/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Detected obfuscation: FORGE.
+[19:25:36] [modloading-worker-3/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Success.
+[19:25:36] [modloading-worker-3/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Initialized.
+[19:25:36] [modloading-worker-15/INFO]: Found 2 RS API injection points
+[19:25:36] [modloading-worker-15/INFO]: Injected RS API in org.cyclops.integrateddynamicscompat.modcompat.refinedstorage.aspect.RefinedStorageAspects RS
+[19:25:36] [modloading-worker-15/INFO]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
+[19:25:36] [modloading-worker-3/INFO]: Detected new forge version, registering events reflectively.
+[19:25:36] [modloading-worker-12/INFO]: Forge mod loading, version 36.2.22, for MC 1.16.5 with MCP 20210115.111550
+[19:25:36] [modloading-worker-12/INFO]: MinecraftForge v36.2.22 Initialized
+[19:25:36] [modloading-worker-5/INFO]: Vanilla is real good, but chocolate is better, let's be honest. :)
+[19:25:36] [modloading-worker-13/INFO]: Patching LootTableManager#apply
+[19:25:36] [modloading-worker-3/INFO]: Registering all blocks and items from BlockCarpentry
+[19:25:36] [modloading-worker-2/INFO]: Executing phase INIT for plugin class FarmersDelightPlugin
+[19:25:36] [modloading-worker-2/INFO]: Executing phase INIT for plugin class ImmersiveEngineeringPlugin
+[19:25:36] [modloading-worker-2/INFO]: Executing phase INIT for plugin class FTBChunksPlugin
+[19:25:36] [modloading-worker-2/INFO]: Executing phase INIT for plugin class CuriosPlugin
+[19:25:37] [modloading-worker-3/INFO]: Registering blocks from BlockCarpentry
+[19:25:37] [modloading-worker-3/INFO]: Registering items from BlockCarpentry
+[19:25:37] [modloading-worker-3/INFO]: Registering tiles from BlockCarpentry
+[19:25:37] [modloading-worker-3/INFO]: Registering containers from BlockCarpentry
+[19:25:37] [modloading-worker-3/INFO]: Registering points of interest from Blockcarpentry
+[19:25:37] [modloading-worker-3/INFO]: Registered all blocks and items from BlockCarpentry
+[19:25:37] [modloading-worker-2/INFO]: Executing phase POST_INIT for plugin class FarmersDelightPlugin
+[19:25:37] [modloading-worker-2/INFO]: Executing phase POST_INIT for plugin class ImmersiveEngineeringPlugin
+[19:25:37] [modloading-worker-2/INFO]: Executing phase POST_INIT for plugin class FTBChunksPlugin
+[19:25:37] [modloading-worker-2/INFO]: Executing phase POST_INIT for plugin class CuriosPlugin
+[19:25:37] [modloading-worker-6/WARN]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with dev.ftb.mods.ftbranks.forge.PermissionAPIWrapper
+[19:25:37] [modloading-worker-12/INFO]: Looking for KubeJS plugins...
+[19:25:37] [modloading-worker-12/INFO]: Found kubejs plugin
+[19:25:37] [modloading-worker-4/INFO]: Knock Knock...
+[19:25:37] [modloading-worker-4/WARN]: Reactor detonation initiated.
+[19:25:37] [modloading-worker-4/INFO]: Wait... NO! What?
+[19:25:37] [modloading-worker-4/INFO]: Stop That! That's not how this works!
+[19:25:37] [modloading-worker-4/WARN]: Calculating explosion ETA
+[19:25:37] [modloading-worker-4/INFO]: Ahh... NO... NONONO! DONT DO THAT!!! STOP THIS NOW!
+[19:25:37] [modloading-worker-4/WARN]: **Explosion Imminent!!!**
+[19:25:37] [modloading-worker-4/INFO]: Well...... fork...
+[19:25:37] [modloading-worker-9/INFO]: Scanning classes for titanium
+[19:25:37] [modloading-worker-12/INFO]: Found kubejs_tinkers plugin
+[19:25:37] [modloading-worker-12/INFO]: Found ftbjarmod plugin
+[19:25:37] [modloading-worker-12/INFO]: Found kubejs_thermal plugin
+[19:25:37] [modloading-worker-9/INFO]: Constructed class IndustrialForegoingResourcePlugin for plugin resources for mod titanium
+[19:25:37] [modloading-worker-12/INFO]: Found recycler plugin
+[19:25:37] [modloading-worker-9/INFO]: Constructed class DefaultResourceRegistryPlugin for plugin resources for mod titanium
+[19:25:37] [modloading-worker-9/INFO]: Executing phase CONSTRUCTION for plugin class IndustrialForegoingResourcePlugin
+[19:25:37] [modloading-worker-12/INFO]: Found kubejs_immersive_engineering plugin
+[19:25:37] [Hats Hat Reader Thread/INFO]: Loaded 488 files. 213 hats, 275 accessories.
+[19:25:37] [modloading-worker-12/INFO]: Found ftbstructures plugin
+[19:25:37] [modloading-worker-12/INFO]: Found kubejs_mekanism plugin
+[19:25:37] [modloading-worker-9/INFO]: Executing phase CONSTRUCTION for plugin class DefaultResourceRegistryPlugin
+[19:25:37] [modloading-worker-12/INFO]: Found kubejs_blood_magic plugin
+[19:25:37] [modloading-worker-12/INFO]: Found ftbchunks plugin
+[19:25:37] [modloading-worker-12/INFO]: Found ftbsluice plugin
+[19:25:37] [modloading-worker-12/INFO]: Done in 0 s
+[19:25:37] [modloading-worker-4/INFO]: Registered addon Forge
+[19:25:37] [modloading-worker-14/INFO]: Creating Seed Drop config directory
+[19:25:37] [modloading-worker-14/INFO]: Reading Seed Drop config JSON file
+[19:25:37] [modloading-worker-4/INFO]: Registered addon Vanilla
+[19:25:37] [modloading-worker-9/INFO]: Detected new forge version, registering events reflectively.
+[19:25:37] [modloading-worker-4/INFO]: Registered addon Storage Drawers
+[19:25:37] [modloading-worker-4/INFO]: Registered addon Industrialforegoing
+[19:25:37] [modloading-worker-12/INFO]: Loaded common.properties
+[19:25:38] [modloading-worker-4/INFO]: Registered addon Thermal_expansion
+[19:25:38] [modloading-worker-13/INFO]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[19:25:38] [modloading-worker-4/INFO]: Registered addon Bloodmagic
+[19:25:38] [modloading-worker-13/INFO]: Registered plugin: com.blakebr0.mysticalcustomization.lib.ModCorePlugin
+[19:25:38] [modloading-worker-13/INFO]: Registered plugin: com.blakebr0.mysticalagradditions.lib.ModCorePlugin
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:t_corridor
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@6906b5c6
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:four_way_corridor_loot
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@6988c40
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:four_way_corridor
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@6d90524
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:ore_hold_1
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@60ae5d52
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:straight_corridor
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@7bc3b8fe
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:spiral_staircase
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@1ee57a06
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:t3_entrance
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@12abf0b3
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/library
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@4f81339c
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/armoury
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@284b7d01
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/farm
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@7963839d
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/portal_nether
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@2d77625b
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:217]: Loading schematic: bloodmagic:mini_dungeon/crypt
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:219]: Resulting dungeon: wayoftime.bloodmagic.structures.DungeonRoom@6e6e91c7
+[19:25:38] [modloading-worker-5/INFO]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:223]: # schematics: 12
+[19:25:38] [modloading-worker-12/INFO]: Loaded script startup_scripts:global.js in 0.126 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded script startup_scripts:forgevent.js in 0.017 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded script startup_scripts:registry/block_registry.js in 0.009 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded script startup_scripts:registry/item_registry.js in 0.002 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded script startup_scripts:worldgen.js in 0.012 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded script startup_scripts:ftbstructures.js in 0.006 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded script startup_scripts:registry/fluid_registry.js in 0.001 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded script startup_scripts:tools.js in 0.051 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded 8/8 KubeJS startup scripts in 0.585 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded script client_scripts:jei.js in 0.006 s
+[19:25:38] [modloading-worker-0/INFO]: Transforming method: updateLightmap net.minecraft.client.renderer.LightTexture
+[19:25:38] [modloading-worker-12/INFO]: Loaded script client_scripts:ae2.js in 0.005 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded script client_scripts:rs.js in 0.003 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded script client_scripts:tools.js in 0.002 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded script client_scripts:ui.js in 0.003 s
+[19:25:38] [modloading-worker-12/INFO]: Loaded 5/5 KubeJS client scripts in 0.027 s
+[19:25:40] [Render thread/INFO]: Registered 34 Block entries in 0.2ms.
+[19:25:40] [Render thread/INFO]: HELLO from Register Block
+[19:25:42] [Render thread/INFO]: Registered 34 Item entries in 0.11ms.
+[19:25:43] [Render thread/INFO]: Loaded book jsons on Thread[Render thread,5,main] in 779 ms
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/melee_damage.json, path: /data/bloodmagic/anointment/melee_damage.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/holy_water.json, path: /data/bloodmagic/anointment/holy_water.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/hidden_knowledge.json, path: /data/bloodmagic/anointment/hidden_knowledge.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/quick_draw.json, path: /data/bloodmagic/anointment/quick_draw.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/bow_power.json, path: /data/bloodmagic/anointment/bow_power.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:126]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/bow_velocity.json, path: /data/bloodmagic/anointment/bow_velocity.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/arrow_protect.json, path: /data/bloodmagic/living_armor/arrow_protect.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fall_protect.json, path: /data/bloodmagic/living_armor/fall_protect.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/physical_protect.json, path: /data/bloodmagic/living_armor/physical_protect.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/jump.json, path: /data/bloodmagic/living_armor/jump.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/health.json, path: /data/bloodmagic/living_armor/health.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/experienced.json, path: /data/bloodmagic/living_armor/experienced.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/sprint_attack.json, path: /data/bloodmagic/living_armor/sprint_attack.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/self_sacrifice.json, path: /data/bloodmagic/living_armor/self_sacrifice.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/speed.json, path: /data/bloodmagic/living_armor/speed.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/poison_resist.json, path: /data/bloodmagic/living_armor/poison_resist.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fire_resist.json, path: /data/bloodmagic/living_armor/fire_resist.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/digging.json, path: /data/bloodmagic/living_armor/digging.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/knockback_resist.json, path: /data/bloodmagic/living_armor/knockback_resist.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/elytra.json, path: /data/bloodmagic/living_armor/elytra.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/curios_socket.json, path: /data/bloodmagic/living_armor/curios_socket.json
+[19:25:43] [Render thread/INFO]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:188]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/downgrade/quenched.json, path: /data/bloodmagic/living_armor/downgrade/quenched.json
+[19:25:43] [Render thread/INFO]: Registered 11 GlobalLootModifierSerializer entries in 0.05ms.
+[19:25:44] [Render thread/INFO]: Registered 1 TileEntityType entries in 0.01ms.
+[19:25:44] [Render thread/INFO]: Attempting to register Tile Entities
+[19:25:45] [Render thread/INFO]: Successfully added NBT Predicate Ingredient Deserializer
+[19:25:45] [Render thread/INFO]: Registered 22 ingredient serializers.
+[19:25:45] [Render thread/INFO]: Registered 5 IRecipeSerializer entries in 0.04ms.
+[19:25:45] [Render thread/INFO]: Registered 3 IRecipeSerializer entries in 0.03ms.
+[19:25:45] [Render thread/WARN]: Registry minecraft:worldgen/biome: The object minecraft:the_end has been registered twice for the same name minecraft:the_end.
+[19:25:45] [Render thread/WARN]: Registry minecraft:worldgen/biome: The object minecraft:end_barrens has been registered twice for the same name minecraft:end_barrens.
+[19:25:45] [Render thread/WARN]: Registry minecraft:worldgen/biome: The object minecraft:small_end_islands has been registered twice for the same name minecraft:small_end_islands.
+[19:25:45] [Render thread/WARN]: Registry minecraft:worldgen/biome: The object minecraft:end_midlands has been registered twice for the same name minecraft:end_midlands.
+[19:25:45] [Render thread/WARN]: Registry minecraft:worldgen/biome: The object minecraft:end_highlands has been registered twice for the same name minecraft:end_highlands.
+[19:25:46] [Render thread/INFO]: Patching BlockModelShapes#getModelLocation
+[19:25:47] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[19:25:47] [Render thread/INFO]: Transforming method: updateFogColor net.minecraft.client.renderer.FogRenderer
+[19:25:48] [Thread-1/FATAL]: theoneprobe config just got changed on the file system!
+[19:25:48] [modloading-worker-6/INFO]: [romelo333.notenoughwands.setup.Config:onLoad:39]: @@@@@@@@@@@@@@@@@@ Config.onLoad
+[19:25:48] [Thread-1/INFO]: [romelo333.notenoughwands.setup.Config:onReload:45]: @@@@@@@@@@@@@@@@@@ Config.onReload
+[19:25:48] [Thread-1/INFO]: [romelo333.notenoughwands.setup.Config:onReload:45]: @@@@@@@@@@@@@@@@@@ Config.onReload
+[19:25:48] [modloading-worker-6/INFO]: CLIENT CONFIG LOADED
+[19:25:48] [Thread-1/FATAL]: theoneprobe config just got changed on the file system!
+[19:25:48] [modloading-worker-6/INFO]: Loading losttrinkets/general_common.toml
+[19:25:48] [modloading-worker-6/INFO]: Gathering Trinkets...
+[19:25:48] [modloading-worker-6/INFO]: All: 69
+[19:25:48] [modloading-worker-6/INFO]: Enabled: 69 Disabled: 0
+[19:25:48] [modloading-worker-6/INFO]: Random: 69 Non-Random: 0
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[19:25:48] [Thread-1/INFO]: Executing phase CONFIG_RELOAD for plugin class FarmersDelightPlugin
+[19:25:48] [Thread-1/INFO]: Executing phase CONFIG_RELOAD for plugin class ImmersiveEngineeringPlugin
+[19:25:48] [Thread-1/INFO]: Executing phase CONFIG_RELOAD for plugin class FTBChunksPlugin
+[19:25:48] [Thread-1/INFO]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class FarmersDelightPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class ImmersiveEngineeringPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class FTBChunksPlugin
+[19:25:48] [modloading-worker-6/INFO]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[19:25:48] [modloading-worker-6/INFO]: BLACKLIST RELOADED
+[19:25:48] [modloading-worker-6/INFO]: COMMON CONFIG LOADED
+[19:25:48] [Thread-1/INFO]: BLACKLIST RELOADED
+[19:25:48] [Thread-1/INFO]: COMMON CONFIG LOADED
+[19:25:48] [Worker-Main-8/INFO]: Registered packet handler.
+[19:25:48] [Worker-Main-9/INFO]: 61 material render infos loaded
+[19:25:49] [Worker-Main-6/WARN]: File better_diving:sounds/seamoth_impact_1.ogg does not exist, cannot add it to event better_diving:seamoth_impact
+[19:25:49] [Worker-Main-6/WARN]: File better_diving:sounds/seamoth_impact_2.ogg does not exist, cannot add it to event better_diving:seamoth_impact
+[19:25:49] [Worker-Main-6/WARN]: File better_diving:sounds/seamoth_impact_3.ogg does not exist, cannot add it to event better_diving:seamoth_impact
+[19:25:49] [Worker-Main-6/INFO]: Executing phase COMMON_SETUP for plugin class FarmersDelightPlugin
+[19:25:49] [Worker-Main-6/INFO]: Executing phase COMMON_SETUP for plugin class ImmersiveEngineeringPlugin
+[19:25:49] [Worker-Main-6/INFO]: Executing phase COMMON_SETUP for plugin class FTBChunksPlugin
+[19:25:49] [Worker-Main-6/INFO]: Executing phase COMMON_SETUP for plugin class CuriosPlugin
+[19:25:49] [Worker-Main-6/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
+[19:25:49] [Worker-Main-6/INFO]: Botania integration added
+[19:25:50] [Worker-Main-6/INFO]: Trait: codechicken/multipart/trait/TTileChangeTile
+[19:25:50] [Worker-Main-6/INFO]:     Marker: codechicken/multipart/api/part/INeighborTileChangePart, Side: SERVER
+[19:25:50] [Worker-Main-6/INFO]: Trait: codechicken/multipart/trait/TTickableTile
+[19:25:50] [Worker-Main-6/INFO]:     Marker: codechicken/multipart/api/part/ITickablePart, Side: COMMON
+[19:25:50] [Worker-Main-6/INFO]: Trait: codechicken/multipart/trait/TSlottedTile
+[19:25:50] [Worker-Main-6/INFO]:     Marker: codechicken/multipart/api/part/TSlottedPart, Side: COMMON
+[19:25:50] [Worker-Main-6/INFO]: Trait: codechicken/multipart/trait/TRedstoneTile
+[19:25:50] [Worker-Main-6/INFO]:     Marker: codechicken/multipart/api/part/redstone/IRedstonePart, Side: COMMON
+[19:25:50] [Worker-Main-6/INFO]: Trait: codechicken/multipart/trait/TPartialOcclusionTile
+[19:25:50] [Worker-Main-6/INFO]:     Marker: codechicken/multipart/api/part/TPartialOcclusionPart, Side: COMMON
+[19:25:50] [Worker-Main-6/INFO]: Trait: codechicken/multipart/trait/TInventoryTile
+[19:25:50] [Worker-Main-6/INFO]:     Marker: net/minecraft/inventory/IInventory, Side: COMMON
+[19:25:50] [Worker-Main-6/INFO]:     Marker: net/minecraft/inventory/ISidedInventory, Side: COMMON
+[19:25:50] [Worker-Main-6/INFO]: Trait: codechicken/multipart/trait/TInventoryTile
+[19:25:50] [Worker-Main-6/INFO]:     Marker: net/minecraft/inventory/IInventory, Side: COMMON
+[19:25:50] [Worker-Main-6/INFO]: Trait: codechicken/multipart/trait/TInventoryTile
+[19:25:50] [Worker-Main-6/INFO]:     Marker: net/minecraft/inventory/ISidedInventory, Side: COMMON
+[19:25:50] [Worker-Main-6/INFO]: Trait: codechicken/multipart/trait/TCapabilityTile
+[19:25:50] [Worker-Main-6/INFO]:     Marker: codechicken/multipart/api/ICapabilityProviderPart, Side: COMMON
+[19:25:50] [Worker-Main-6/INFO]: Trait: codechicken/multipart/trait/TAnimateTickTile
+[19:25:50] [Worker-Main-6/INFO]:     Marker: codechicken/multipart/api/part/AnimateTickPart, Side: CLIENT
+[19:25:50] [Worker-Main-6/INFO]: Trait: mrtjp/projectred/illumination/LightMicroblock
+[19:25:50] [Worker-Main-6/INFO]:     Marker: mrtjp/projectred/illumination/ILightMicroblockMixinMarker, Side: COMMON
+[19:25:50] [Worker-Main-6/INFO]: Common Setup Method registered.
+[19:25:50] [Worker-Main-6/INFO]: Version 10.0.24 initializing...
+[19:25:50] [Worker-Main-6/INFO]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[19:25:50] [Worker-Main-6/INFO]: Loading complete.
+[19:25:50] [Worker-Main-6/INFO]: Mod loaded.
+[19:26:12] [Worker-Main-8/INFO]: Stitching Revolver Textures!
+[19:26:12] [Worker-Main-8/INFO]: Stitching textures from BlockCarpentry
+[19:26:12] [Worker-Main-8/INFO]: Stitched all textures from BlockCarpentry
+[19:26:12] [Immersive Engineering Contributors Thread/INFO]: Attempting to download special revolvers from GitHub
+[19:26:12] [Worker-Main-10/INFO]: Registered packet handler.
+[19:26:13] [Worker-Main-7/INFO]: Registered packet handler.
+[19:26:13] [Worker-Main-10/INFO]: Attempting to delete 0 files/folders defined in config
+[19:26:13] [Worker-Main-7/INFO]: Registering 3 command argument types.
+[19:26:13] [Worker-Main-7/INFO]: Registering 13 loot conditions.
+[19:26:13] [Worker-Main-9/INFO]: Loaded 'Mekanism Generators' module.
+[19:26:13] [Worker-Main-10/WARN]: Called deprecated GlobalEntityTypeAttributes#put for losttrinkets:dark_vex, use EntityAttributeCreationEvent instead.
+[19:26:13] [Worker-Main-9/INFO]: HELLO FROM PREINIT
+[19:26:13] [Worker-Main-9/INFO]: DIRT BLOCK >> minecraft:dirt
+[19:26:13] [Worker-Main-9/INFO]: Setting up BlockCarpentry mod
+[19:26:13] [Worker-Main-7/INFO]: Loaded 'Mekanism: Tools' module.
+[19:26:13] [Worker-Main-7/INFO]: RFTools Storage Detected XNet: enabling support
+[19:26:13] [Worker-Main-10/INFO]: Post Initialization ( started )
+[19:26:13] [Worker-Main-10/INFO]: Post Initialization ( ended after 15ms )
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 clay_ball = 1 clay
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 snowball = 1 snow_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 glowstone_dust = 1 glowstone
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 brick = 1 bricks
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 nether_brick = 1 nether_bricks
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 quartz = 1 quartz_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 melon_slice = 1 melon
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 sand = 1 sandstone
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 red_sand = 1 red_sandstone
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 clay_ball = 1 clay
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 iron_chunk = 1 iron_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 gold_chunk = 1 gold_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 diamond_chunk = 1 diamond_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 lapis_chunk = 1 lapis_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 quartz_chunk = 1 quartz_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 redstone_chunk = 1 redstone_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 emerald_chunk = 1 emerald_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 copper_chunk = 1 copper_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 cobalt_chunk = 1 cobalt_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 lead_chunk = 1 lead_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 tin_chunk = 1 tin_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 silver_chunk = 1 silver_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 nickel_chunk = 1 nickel_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 osmium_chunk = 1 osmium_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 fluorite_chunk = 1 fluorite_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 uranium_chunk = 1 uranium_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 aluminum_chunk = 1 aluminum_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 4 titanium_chunk = 1 titanium_cluster
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 2 uraninite_raw = 1 uraninite_raw_dense
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 2 uraninite_raw_poor = 1 uraninite_raw
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 sapphire = 1 sapphire_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 ruby = 1 ruby_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 silver_ingot = 1 silver_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 silver_nugget = 1 silver_ingot
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 copper_ingot = 1 copper_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 copper_nugget = 1 copper_ingot
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 tin_ingot = 1 tin_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 tin_nugget = 1 tin_ingot
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 lead_ingot = 1 lead_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 lead_nugget = 1 lead_ingot
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 nickel_ingot = 1 nickel_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 nickel_nugget = 1 nickel_ingot
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 bronze_ingot = 1 bronze_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 bronze_nugget = 1 bronze_ingot
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 electrum_ingot = 1 electrum_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 electrum_nugget = 1 electrum_ingot
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 constantan_ingot = 1 constantan_block
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 constantan_nugget = 1 constantan_ingot
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 ingot_steel = 1 storage_steel
+[19:26:13] [Worker-Main-10/INFO]: New compacting rule 9 nugget_steel = 1 ingot_steel
+[19:26:13] [Worker-Main-3/INFO]: Prebuilts: Searching for prebuilt islands in /config/ftbteamislands//islands.json
+[19:26:13] [Worker-Main-3/INFO]: Prebuilts: found 3 islands in /config/ftbteamislands//islands.json
+[19:26:13] [Worker-Main-9/INFO]: Discord client was not found.
+[19:26:13] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for mekanism:robit, use EntityAttributeCreationEvent instead.
+[19:26:13] [Worker-Main-5/INFO]: Got game settings net.minecraft.client.GameSettings@684957bc
+[19:26:13] [Worker-Main-4/INFO]: Executing phase CLIENT_SETUP for plugin class FarmersDelightPlugin
+[19:26:13] [Worker-Main-4/INFO]: Executing phase CLIENT_SETUP for plugin class ImmersiveEngineeringPlugin
+[19:26:13] [Worker-Main-4/INFO]: Executing phase CLIENT_SETUP for plugin class FTBChunksPlugin
+[19:26:13] [Worker-Main-4/INFO]: Executing phase CLIENT_SETUP for plugin class CuriosPlugin
+[19:26:13] [Worker-Main-4/INFO]: Client Setup Method registered.
+[19:26:13] [Worker-Main-6/INFO]: Initialized HolidayManager.
+[19:26:13] [Placebo Patreon Wing Loader/INFO]: Loading patreon wing data...
+[19:26:13] [Placebo Patreon Trail Loader/INFO]: Loading patreon trails data...
+[19:26:13] [Placebo Patreon Wing Loader/INFO]: Loaded 8 patreon wings.
+[19:26:13] [Worker-Main-5/INFO]: Got game settings net.minecraft.client.GameSettings@684957bc
+[19:26:13] [Placebo Patreon Trail Loader/INFO]: Loaded 8 patreon trails.
+[19:26:13] [Worker-Main-4/INFO]: Registering block color handler
+[19:26:13] [Worker-Main-4/INFO]: Registered block color handler
+[19:26:13] [Worker-Main-4/INFO]: Setting up client things for BlockCarpentry
+[19:26:14] [Worker-Main-3/INFO]: Building MineTogether chat
+[19:26:14] [Worker-Main-3/INFO]: Scanning mods directory for MineTogether jar
+[19:26:14] [Worker-Main-10/INFO]: Loaded 1913 emojis
+[19:26:14] [Worker-Main-3/ERROR]: Main class found, MineTogether Jar found
+[19:26:14] [Worker-Main-3/INFO]: new ServerID requested
+[19:26:15] [pool-8-thread-2/INFO]: Starting new Chat socket
+[19:26:15] [ForkJoinPool.commonPool-worker-2/INFO]: Reconnection thread started
+[19:26:15] [ForkJoinPool.commonPool-worker-2/INFO]: Chat thread started
+[19:26:15] [pool-16-thread-1/INFO]: new ServerID requested
+[19:26:15] [minetogether-ircevent-0/INFO]: new ServerID requested
+[19:26:16] [minetogether-ircevent-4/INFO]: new ServerID requested
+[19:26:17] [Worker-Main-9/INFO]: Processing InterModCommunication
+[19:26:17] [Worker-Main-5/INFO]: Got IMC []
+[19:26:17] [Worker-Main-7/INFO]: Hello world from the MDK
+[19:26:17] [Worker-Main-7/INFO]: Got IMC [Hello world]
+[19:26:17] [Worker-Main-9/INFO]: Processed InterModCommunication
+[19:26:17] [Worker-Main-7/INFO]: refinedstorage has registered com.refinedmods.refinedstorage.container.GridContainer for CraftingTweaks
+[19:26:17] [Worker-Main-10/INFO]: Enabled support for The One Probe
+[19:26:17] [Worker-Main-10/INFO]: Enabled support for The One Probe
+[19:26:17] [Worker-Main-5/INFO]: Added coolant fluid: minecraft:water, with coldness of: 1 per mb
+[19:26:17] [Worker-Main-5/INFO]: Added block: minecraft:lava, with heat of: 1000
+[19:26:17] [Worker-Main-5/INFO]: Added block: minecraft:magma_block, with heat of: 800
+[19:26:17] [Worker-Main-6/INFO]: Creating config GUI factories...
+[19:26:17] [Worker-Main-5/INFO]: Added block: powah:blazing_crystal_block, with heat of: 2800
+[19:26:17] [Worker-Main-5/INFO]: Added fluid: minecraft:lava, with heat of: 10000 per 100 mb
+[19:26:17] [Worker-Main-7/INFO]: Applying mega torch entity block list overrides...
+[19:26:17] [Worker-Main-7/INFO]: Applying dread lamp entity block list overrides...
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod integratedterminals. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod modnametooltip. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod thermal. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod pitg. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod rftoolsbase. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod xnet. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod reauth. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod powah. Found 0 client config(s) and 15 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod morpheus. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod jeresources. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod toolkit. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod mysticalagradditions. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod emojiful. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod betterendforge. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod refinedstorage. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod industrialforegoing. Found 0 client config(s) and 5 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod torchmaster. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod blur. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod botania. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod curios. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod topaddons. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod constructionwand. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod cfm. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod cobblefordays. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod fastleafdecay. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod sdrp. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod aquafied. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod tconplanner. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod miniutilities. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod simplyjetpacks. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod jei. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod attributefix. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod mekanism. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod invtweaks. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod notenoughwands. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod compactmachines. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod botanypots. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod cofh_core. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod rftoolspower. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod forge. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod integratedcrafting. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod theoneprobe. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod immersiveengineering. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod ding. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod rftoolsbuilder. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod jeiintegration. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod pipez. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod mantle. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod integrateddynamics. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod ftbbackups. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod gravestone. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod serverconfigupdater. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod integratedterminalscompat. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod harvest. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod appleskin. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod extremesoundmuffler. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod rsrequestify. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod cyclopscore. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod extendedcrafting. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod culinaryconstruct. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod ibicf. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod squatgrow. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod mekanismgenerators. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod xnetgases. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod losttrinkets. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod chocolate. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod farmersdelight. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod commoncapabilities. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod simplybackpacks. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod patchouli. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod rftoolsstorage. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod better_diving. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod blockcarpentry. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod tiab. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod integratedtunnels. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod elevatorid. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod mekanismtools. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod aiimprovements. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod bwncr. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod smallships. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod cucumber. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod trashslot. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod appliedenergistics2. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod roadrunner. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod configured. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod charginggadgets. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod mcjtylib. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod integrateddynamicscompat. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod toastcontrol. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod akashictome. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod bloodmagic. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod mysticalagriculture. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod craftingtweaks. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod tconstruct. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod rftoolsutility. Found 1 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod titanium. Found 0 client config(s) and 2 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod dimpaintings. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod fluxnetworks. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod ftbteamislands. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod storagedrawers. Found 1 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod seeddrop. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod ftb-power-pots. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod cottonly. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod moredragoneggs. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod flowerseeds. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod refinedstorageaddons. Found 0 client config(s) and 0 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod ftbsluice. Found 0 client config(s) and 1 common config(s)
+[19:26:17] [Worker-Main-6/INFO]: Registering config factory for mod chiselsandbits. Found 1 client config(s) and 1 common config(s)
+[19:26:18] [Worker-Main-9/INFO]: Loaded 68 HeadInfo object(s)
+[19:26:21] [Render thread/INFO]: OpenAL initialized.
+[19:26:21] [Render thread/INFO]: Sound engine started
+[19:26:46] [Render thread/INFO]: Model replacement took 7 ms
+[19:26:48] [Render thread/INFO]: Successfully loaded sound engine. 11 dimension(s) and 32 region(s)
+[19:29:18] [Netty Client IO #0/ERROR]: Channels [itemcollectors:main,mantle:network,buildinggadgets:main,cfm:network,lollipop:main,compactmachines:main,autoreglib:main,tconstruct:network,losttrinkets:main,constructionwand:main,botanypots:main,integratednbt:main,bloodmagic:main,toolkit:main,chiselsandbits:chiselsandbits,immersiveengineering:main,mekanism:mekanism,topaddons:main,botania:chan,culinaryconstruct:main,fluxnetworks:main_network,ftbteamislands:main,tesseract:main,powah:main,supermartijn642configlib:main,mekanismgenerators:mekanismgenerators,storagedrawers:main_channel,miniutilities:main,curios:main,better_diving:main,patchouli:main,chisel:main,krate:main,trashcans:main,ironchest:network,akashictome:main,elevatorid:main_channel,refinedstorage:main_channel] rejected vanilla connections
+[19:29:18] [Netty Client IO #0/INFO]: Server has additional mods that may be needed on the client: randompatches@2.4.4-forge
+[19:29:18] [Netty Client IO #0/INFO]: Client has mods that are missing on server: [better_diving, blockcarpentry, projectred-transmission, tiab, integratedtunnels, thermal_expansion, elevatorid, mysticalcustomization, ftbultimine, mekanismtools, architectury, aiimprovements, trashcans, bwncr, smallships, rhino, cucumber, trashslot, flatbedrock, snad, itemfilters, clumps, mcwpaintings, appliedenergistics2, cb_multipart_minecraft, charginggadgets, mcjtylib, integrateddynamicscompat, ichunutil, enderstorage, akashictome, ftbchunks, bloodmagic, brandonscore, mysticalagriculture, tconstruct, rftoolsutility, titanium, krate, dimpaintings, fastbench, fluxnetworks, ftbteamislands, storagedrawers, ftb-power-pots, cottonly, chisel, minetogether, moredragoneggs, flowerseeds, refinedstorageaddons, ftbsluice, chiselsandbits]
+[19:29:21] [Render thread/INFO]: Connecting to oceanblock.mym.li, 25565
+[19:29:25] [Netty Client IO #1/INFO]: Allocated Hat Pools.
+[19:29:25] [Netty Client IO #1/INFO]: SERVER CONFIG LOADED
+[19:29:25] [Netty Client IO #1/INFO]: [romelo333.notenoughwands.setup.Config:onReload:45]: @@@@@@@@@@@@@@@@@@ Config.onReload
+[19:29:27] [Netty Client IO #1/INFO]: Connected to a modded server.
+[19:29:28] [Render thread/INFO]: Loaded 30 singularities from the server
+[19:29:30] [Render thread/INFO]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/372788696128290817.png
+[19:29:30] [Render thread/INFO]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/699724453541707887.png
+[19:29:30] [Render thread/INFO]: [com.hrznstudio.emojiful.ClientProxy:onRecipesUpdated:165]: https://cdn.discordapp.com/emojis/230592848074899456.png
+[19:29:30] [Render thread/INFO]: Started wikis recipes collecting...
+[19:29:30] [Render thread/INFO]: Wiki recipes collecting completed in : 160 ms
+[19:29:30] [Render thread/INFO]: Loaded 254 botanypots:crop recipes from 10 namespaces
+[19:29:30] [Render thread/INFO]: Loaded 4 botanypots:fertilizer recipes from 4 namespaces
+[19:29:30] [Render thread/INFO]: Loaded 57 botanypots:soil recipes from 8 namespaces
+[19:29:31] [Render thread/INFO]: Loading infobook /data/cyclopscore/info/test.xml
+[19:29:31] [Render thread/INFO]: Loading infobook /data/integrateddynamics/info/on_the_dynamics_of_integration.xml
+[19:29:31] [Render thread/INFO]: Starting JEI...
+[19:29:35] [Render thread/WARN]: defineId called for: class com.talhanation.smallships.entities.AbstractSailBoat from class com.talhanation.smallships.entities.AbstractBannerUser
+[19:29:35] [Render thread/WARN]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractCogEntity from class com.talhanation.smallships.entities.CogEntity
+[19:29:35] [Render thread/WARN]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractGalleyEntity from class com.talhanation.smallships.entities.GalleyEntity
+[19:29:35] [Render thread/WARN]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractWarGalleyEntity from class com.talhanation.smallships.entities.WarGalleyEntity
+[19:29:35] [Render thread/WARN]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractDrakkarEntity from class com.talhanation.smallships.entities.DrakkarEntity
+[19:29:35] [Render thread/WARN]: defineId called for: class com.talhanation.smallships.entities.AbstractRowBoatEntity from class com.talhanation.smallships.entities.RowBoatEntity
+[19:29:35] [Render thread/WARN]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractBriggEntity from class com.talhanation.smallships.entities.BriggEntity
+[19:29:35] [Render thread/WARN]: defineId called for: class com.talhanation.smallships.entities.sailboats.AbstractDhowEntity from class com.talhanation.smallships.entities.DhowEntity
+[19:29:38] [Render thread/INFO]: Adding recipes to JEI!!
+[19:29:38] [Render thread/INFO]: Added recipe manager plugin: class appeng.integration.modules.jei.FacadeRegistryPlugin
+[19:29:38] [Render thread/INFO]: Added recipe manager plugin: class team.chisel.common.integration.jei.ChiselRecipeRegistryPlugin
+[19:29:38] [Render thread/INFO]: Building ingredient list...
+[19:29:38] [Render thread/INFO]: Building ingredient list took 10.69 ms
+[19:29:38] [Render thread/INFO]: Building ingredient filter...
+[19:29:39] [Render thread/INFO]: Building ingredient filter took 1.593 s
+[19:29:39] [Render thread/INFO]: Building bookmarks...
+[19:29:39] [Render thread/INFO]: Building bookmarks took 6.883 ms
+[19:29:39] [Render thread/INFO]: Building recipe registry...
+[19:29:40] [Render thread/INFO]: Building recipe registry took 334.3 ms
+[19:29:40] [Render thread/INFO]: Building runtime...
+[19:29:40] [Render thread/INFO]: Building runtime took 36.80 ms
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 2940 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 10 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/ERROR]: Could not find any matching ingredients to remove: 1 FluidDummyItem[dummy_fluid_item] appliedenergistics2:dummy_fluid_item
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 3016 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being added at runtime: 9 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraftforge.fluids.FluidStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 1 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 3 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Ingredients are being removed at runtime: 3 net.minecraft.item.ItemStack
+[19:29:40] [Render thread/INFO]: Starting JEI took 8.932 s
+[19:29:40] [Sound engine/ERROR]: Failed to read from audio stream
+java.nio.channels.ClosedByInterruptException: null
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(Unknown Source) ~[?:1.8.0_311]
+	at sun.nio.ch.FileChannelImpl.position(Unknown Source) ~[?:1.8.0_311]
+	at sun.nio.ch.FileChannelImpl.position(Unknown Source) ~[?:1.8.0_311]
+	at com.sun.nio.zipfs.ZipFileSystem$EntryInputStream.read(ZipFileSystem.java:1519) ~[zipfs.jar:1.8.0_311]
+	at com.sun.nio.zipfs.ZipFileSystem$5.fill(ZipFileSystem.java:1458) ~[zipfs.jar:1.8.0_311]
+	at java.util.zip.InflaterInputStream.read(Unknown Source) ~[?:1.8.0_311]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_311]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_311]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_311]
+	at java.io.FilterInputStream.read(Unknown Source) ~[?:1.8.0_311]
+	at java.io.FilterInputStream.read(Unknown Source) ~[?:1.8.0_311]
+	at net.minecraft.client.audio.OggAudioStream.func_216456_c(SourceFile:113) ~[?:?]
+	at net.minecraft.client.audio.OggAudioStream.func_216460_a(SourceFile:160) ~[?:?]
+	at net.minecraft.client.audio.OggAudioStream.func_216455_a(SourceFile:224) ~[?:?]
+	at net.minecraft.client.audio.OggAudioStreamWrapper.func_216455_a(SourceFile:41) ~[?:?]
+	at net.minecraft.client.audio.SoundSource.func_216421_a(SourceFile:151) ~[?:?]
+	at net.minecraft.client.audio.SoundSource.func_216433_a(SourceFile:140) ~[?:?]
+	at net.minecraft.client.audio.SoundEngine.lambda$null$7(SoundEngine.java:349) ~[?:?]
+	at net.minecraft.client.audio.ChannelManager$Entry.func_217890_b(SourceFile:34) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) ~[?:?]
+	at net.minecraft.client.audio.SoundEngineExecutor.func_213178_c(SourceFile:42) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_311]
+[19:30:36] [Render thread/INFO]: Stopping!
+[19:30:36] [DiscordRP Stop/INFO]: Shutting down Discord Rich Presence client
+[19:30:36] [Thread-46/INFO]: Shutdown called, Stopping our threads
+[19:30:36] [DiscordRP Stop/ERROR]: Error closing Discord connection.
+java.lang.IllegalStateException: IPCClient (ID: 872413240997593089) is not connected!
+	at com.sunekaer.mods.sdrp.discord.discordipc.IPCClient.checkConnected(IPCClient.java:354) ~[sdrp:1.4.0-build.3+mc1.16.5]
+	at com.sunekaer.mods.sdrp.discord.discordipc.IPCClient.close(IPCClient.java:323) ~[sdrp:1.4.0-build.3+mc1.16.5]
+	at com.sunekaer.mods.sdrp.discord.DiscordRichPresence.stop(DiscordRichPresence.java:68) ~[sdrp:1.4.0-build.3+mc1.16.5]
+	at com.sunekaer.mods.sdrp.discord.DiscordRichPresence.lambda$static$1(DiscordRichPresence.java:38) ~[sdrp:1.4.0-build.3+mc1.16.5]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_311]
+[19:30:36] [Thread-46/INFO]: Stopping IRC Socket
+[19:30:36] [DiscordRP Stop/INFO]: Discord client closed.
+[19:30:36] [Thread-46/INFO]: Force quitting chat thread
